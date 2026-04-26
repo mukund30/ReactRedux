@@ -15,7 +15,7 @@ function ProductList() {
             <h3>{product.name}</h3>
             <p className="price">${product.price}</p>
             <button onClick={() => dispatch(addToCart(product))}>
-              Add to Cart
+              Add to Product cart
             </button>
           </div>
         ))}
